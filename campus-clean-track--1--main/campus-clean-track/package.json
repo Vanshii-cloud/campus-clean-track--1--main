@@ -1,0 +1,12 @@
+{
+  "name": "campus-clean-track",
+  "version": "1.0.0",
+  "description": "Campus Clean Track - Swachh Bharat Mission campus chapter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "users": [
+    {
+      "id": "323d61172b19",
+      "name": "Asha Verma",
+      "email": "asha.verma@campus.edu",
+      "dept": "Computer Science",
+      "role": "student",
+      "points": 440,
+      "reported": 14,
+      "resolved": 6,
+      "joinedDrives": [
+        "760efe9eb7f7"
+      ],
+      "pledged": true,
+      "createdAt": "2026-10-11T21:23:06.654Z"
+    },
+    {
+      "id": "2ffbd23b73a6",
+      "name": "Rohan Iyer",
+      "email": "rohan.iyer@campus.edu",
+      "dept": "Mechanical",
+      "role": "student",
+      "points": 320,
+      "reported": 11,
+      "resolved": 3,
+      "joinedDrives": [
+        "760efe9eb7f7",
+        "e0ad83f71882"
+      ],
+      "pledged": true,
+      "createdAt": "2026-10-11T21:23:06.655Z"
+    },
+    {
+      "id": "d9dd1c0de78b",
+      "name": "Priya Nair",
+      "email": "priya.nair@campus.edu",
+      "dept": "Civil",
+      "role": "student",
+      "points": 255,
+      "reported": 9,
+      "resolved": 2,
+      "joinedDrives": [
+        "760efe9eb7f7"
+      ],
+      "pledged": true,
+      "createdAt": "2026-10-11T21:23:06.655Z"
+    },
+    {
+      "id": "04274527e227",
+      "name": "Dev Patel",
+      "email": "dev.patel@campus.edu",
+      "dept": "Hostels",
+      "role": "student",
+      "points": 165,
+      "reported": 6,
+      "resolved": 1,
+      "joinedDrives": [],
+      "pledged": true,
+      "createdAt": "2026-10-11T21:23:06.655Z"
+    },
+    {
+      "id": "ef2d83b36771",
+      "name": "Sneha Rao",
+      "email": "sneha.rao@campus.edu",
+      "dept": "Admin Staff",
+      "role": "student",
+      "points": 115,
+      "reported": 4,
+      "resolved": 1,
+      "joinedDrives": [],
+      "pledged": true,
+      "createdAt": "2026-10-11T21:23:06.655Z"
+    },
+    {
+      "id": "71ccf3ea6b1a",
+      "name": "Karan Mehta",
+      "email": "karan.mehta@campus.edu",
+      "dept": "Electrical",
+      "role": "student",
+      "points": 100,
+      "reported": 3,
+      "resolved": 0,
+      "joinedDrives": [],
+      "pledged": true,
+      "createdAt": "2026-10-11T21:23:06.655Z"
+    },
+    {
+      "id": "c2a3d0c6bb52",
+      "name": "Isha Gupta",
+      "email": "isha.gupta@campus.edu",
+      "dept": "Biotech",
+      "role": "student",
+      "points": 50,
+      "reported": 2,
+      "resolved": 0,
+      "joinedDrives": [],
+      "pledged": true,
+      "createdAt": "2026-10-11T21:23:06.656Z"
+    },
+    {
+      "id": "199ba25baa5a",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@campus.edu",
+      "dept": "Library",
+      "role": "student",
+      "points": 25,
+      "reported": 1,
+      "resolved": 0,
+      "joinedDrives": [],
+      "pledged": true,
+      "createdAt": "2026-10-11T21:23:06.656Z"
+    },
+    {
+      "id": "fa8fc2d877d1",
+      "name": "Meera Das",
+      "email": "meera.das@campus.edu",
+      "dept": "Chemistry",
+      "role": "student",
+      "points": 15,
+      "reported": 0,
+      "resolved": 0,
+      "joinedDrives": [],
+      "pledged": true,
+      "createdAt": "2026-10-11T21:23:06.656Z"
+    },
+    {
+      "id": "0d4a38f714c8",
+      "name": "Eco Volunteer",
+      "email": "eco.volunteer@campus.edu",
+      "dept": "Green Council",
+      "role": "student",
+      "points": 0,
+      "reported": 0,
+      "resolved": 0,
+      "joinedDrives": [],
+      "pledged": false,
+      "createdAt": "2026-10-28T13:23:06.656Z"
+    },
+    {
+      "id": "11aa996edaf2",
+      "name": "Campus Officer",
+      "email": "officer@campus.edu",
+      "dept": "Estate Office",
+      "role": "officer",
+      "points": 0,
+      "reported": 0,
+      "resolved": 0,
+      "joinedDrives": [],
+      "pledged": false,
+      "createdAt": "2026-10-07T17:23:06.656Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "f3dd6b97b06e",
+      "title": "Browser flow test: litter near the library steps",
+      "description": "Reported by the tier-1 browser happy-path pass to verify the full reporting flow works end to end.",
+      "category": "Waste Overflow",
+      "location": "Academic Block A",
+      "severity": "high",
+      "status": "pending",
+      "authorId": "0d4a38f714c8",
+      "upvotes": [],
+      "createdAt": "2026-11-01T10:23:06.656Z",
+      "updatedAt": "2026-11-01T10:23:06.656Z",
+      "resolvedAt": null
+    },
+    {
+      "id": "db1ebc8c297c",
+      "title": "Curl smoke test issue on the west lawn",
+      "description": "Created by the automated curl smoke test - please ignore.",
+      "category": "Litter on Lawn",
+      "location": "West Lawn",
+      "severity": "low",
+      "status": "resolved",
+      "authorId": "0d4a38f714c8",
+      "upvotes": [
+        "2ffbd23b73a6"
+      ],
+      "createdAt": "2026-11-01T10:23:06.656Z",
+      "updatedAt": "2026-11-01T10:23:06.656Z",
+      "resolvedAt": "2026-11-01T10:23:06.656Z"
+    },
+    {
+      "id": "ab833b213cd7",
+      "title": "Overflowing waste bin behind Block C canteen",
+      "description": "The waste bin behind the Block C canteen has not been emptied for two days. Bags are piling up on the pavement and attracting stray animals.",
+      "category": "Waste Overflow",
+      "location": "Academic Block C",
+      "severity": "high",
+      "status": "pending",
+      "authorId": "323d61172b19",
+      "upvotes": [],
+      "createdAt": "2026-11-01T04:23:06.656Z",
+      "updatedAt": "2026-11-01T04:23:06.656Z",
+      "resolvedAt": null
+    },
+    {
+      "id": "57d6ee744cf4",
+      "title": "Broken dustbin near hostel gate",
+      "description": "The lid of the dustbin at Hostel Gate 2 is broken and waste spills out when it rains.",
+      "category": "Broken Dustbin",
+      "location": "Hostel Gate 2",
+      "severity": "medium",
+      "status": "in_progress",
+      "authorId": "ef2d83b36771",
+      "upvotes": [
+        "323d61172b19",
+        "2ffbd23b73a6"
+      ],
+      "createdAt": "2026-10-31T11:23:06.656Z",
+      "updatedAt": "2026-10-31T11:23:06.656Z",
+      "resolvedAt": null
+    },
+    {
+      "id": "a180fd61facb",
+      "title": "Plastic bottles scattered on amphitheatre steps",
+      "description": "After Friday's event many plastic bottles and wrappers were left on the amphitheatre steps.",
+      "category": "Litter on Lawn",
+      "location": "Amphitheatre",
+      "severity": "medium",
+      "status": "resolved",
+      "authorId": "d9dd1c0de78b",
+      "upvotes": [
+        "323d61172b19"
+      ],
+      "createdAt": "2026-10-30T13:23:06.656Z",
+      "updatedAt": "2026-10-30T13:23:06.656Z",
+      "resolvedAt": "2026-10-30T13:23:06.656Z"
+    },
+    {
+      "id": "e4b8885cef99",
+      "title": "Water tap leaking in Block B washroom",
+      "description": "The tap near the washbasin in the ground floor washroom leaks continuously.",
+      "category": "Water Leakage",
+      "location": "Academic Block B",
+      "severity": "medium",
+      "status": "in_progress",
+      "authorId": "04274527e227",
+      "upvotes": [
+        "d9dd1c0de78b"
+      ],
+      "createdAt": "2026-10-30T05:23:06.656Z",
+      "updatedAt": "2026-10-30T05:23:06.656Z",
+      "resolvedAt": null
+    },
+    {
+      "id": "4b1cb2ffc002",
+      "title": "Old keyboards piled in lab store room",
+      "description": "Dozens of unusable keyboards and chargers are piling up and need e-waste disposal.",
+      "category": "E-Waste",
+      "location": "CS Lab Store",
+      "severity": "low",
+      "status": "pending",
+      "authorId": "323d61172b19",
+      "upvotes": [
+        "04274527e227"
+      ],
+      "createdAt": "2026-10-29T14:23:06.656Z",
+      "updatedAt": "2026-10-29T14:23:06.656Z",
+      "resolvedAt": null
+    },
+    {
+      "id": "ac1d7e82724e",
+      "title": "Food waste near mess exit",
+      "description": "Leftover food is being dumped outside the mess exit instead of the compost bin.",
+      "category": "Waste Overflow",
+      "location": "Boys Hostel Mess",
+      "severity": "high",
+      "status": "resolved",
+      "authorId": "ef2d83b36771",
+      "upvotes": [
+        "323d61172b19",
+        "d9dd1c0de78b",
+        "04274527e227"
+      ],
+      "createdAt": "2026-10-28T23:23:06.656Z",
+      "updatedAt": "2026-10-28T23:23:06.656Z",
+      "resolvedAt": "2026-10-28T23:23:06.656Z"
+    },
+    {
+      "id": "2107f5733e43",
+      "title": "Garden waste not collected",
+      "description": "Cut grass and branches have been lying beside the sports ground for a week.",
+      "category": "Other",
+      "location": "Sports Ground",
+      "severity": "low",
+      "status": "resolved",
+      "authorId": "04274527e227",
+      "upvotes": [],
+      "createdAt": "2026-10-28T03:23:06.656Z",
+      "updatedAt": "2026-10-28T03:23:06.656Z",
+      "resolvedAt": "2026-10-28T03:23:06.656Z"
+    },
+    {
+      "id": "12a362d52f62",
+      "title": "Overflowing bins at central cafeteria",
+      "description": "Both bins at the central cafeteria are full by noon every day.",
+      "category": "Waste Overflow",
+      "location": "Central Cafeteria",
+      "severity": "medium",
+      "status": "pending",
+      "authorId": "2ffbd23b73a6",
+      "upvotes": [
+        "323d61172b19"
+      ],
+      "createdAt": "2026-10-27T17:23:06.656Z",
+      "updatedAt": "2026-10-27T17:23:06.656Z",
+      "resolvedAt": null
+    }
+  ],
+  "drives": [
+    {
+      "id": "760efe9eb7f7",
+      "title": "Monsoon Clean-Up Drive",
+      "date": "2026-11-07",
+      "location": "West Lawn & Amphitheatre",
+      "description": "Join the estate team for a guided clean-up of the west lawn and amphitheatre after the rains. Gloves, bags and refreshments provided — earn +50 green points on your first drive.",
+      "image": "https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?w=900&q=70",
+      "participants": [
+        "323d61172b19",
+        "2ffbd23b73a6",
+        "d9dd1c0de78b"
+      ]
+    },
+    {
+      "id": "e0ad83f71882",
+      "title": "Tree Plantation & Mulching Workshop",
+      "date": "2026-11-12",
+      "location": "Botanical Garden",
+      "description": "A hands-on plantation workshop with the eco club. Plant a sapling, learn mulching, and adopt a tree for the semester. Certificates for all volunteers.",
+      "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=900&q=70",
+      "participants": [
+        "2ffbd23b73a6"
+      ]
+    },
+    {
+      "id": "015619b21a68",
+      "title": "E-Waste Collection Day",
+      "date": "2026-11-21",
+      "location": "Student Activity Centre",
+      "description": "Drop off old chargers, headphones, keyboards and batteries at the collection van outside the Student Activity Centre. Safe disposal certified by the campus Green Council.",
+      "image": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=900&q=70",
+      "participants": []
+    }
+  ],
+  "pledgeCount": 9
+}
